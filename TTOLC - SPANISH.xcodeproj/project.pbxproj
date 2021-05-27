@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33E7F3809B40ED7628A8FADD /* Pods_TTOLC___SPANISH_TTOLC___SPANISHUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40139667126236C9250E10A4 /* Pods_TTOLC___SPANISH_TTOLC___SPANISHUITests.framework */; };
+		5210B22126389D9F006E080F /* missionary.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5210B22026389D9F006E080F /* missionary.mp4 */; };
+		5210B2322638EEDA006E080F /* DetailBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210B2312638EEDA006E080F /* DetailBookViewController.swift */; };
 		523B680D2637C22C003C278E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B680C2637C22C003C278E /* AppDelegate.swift */; };
 		523B680F2637C22C003C278E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B680E2637C22C003C278E /* SceneDelegate.swift */; };
 		523B68112637C22C003C278E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68102637C22C003C278E /* ViewController.swift */; };
@@ -15,6 +18,28 @@
 		523B68192637C22D003C278E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523B68172637C22D003C278E /* LaunchScreen.storyboard */; };
 		523B68242637C22D003C278E /* TTOLC___SPANISHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68232637C22D003C278E /* TTOLC___SPANISHTests.swift */; };
 		523B682F2637C22D003C278E /* TTOLC___SPANISHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B682E2637C22D003C278E /* TTOLC___SPANISHUITests.swift */; };
+		523B68462637CB7F003C278E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68452637CB7F003C278E /* MainMenu.swift */; };
+		523B684E2637CD5D003C278E /* CustomMainSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B684D2637CD5D003C278E /* CustomMainSectionTableViewCell.swift */; };
+		523B68532637E578003C278E /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68522637E578003C278E /* SectionTableViewController.swift */; };
+		523B68602637E5B1003C278E /* CustomSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B685F2637E5B1003C278E /* CustomSectionTableViewCell.swift */; };
+		523B687D2637EF4A003C278E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 523B687C2637EF4A003C278E /* GoogleService-Info.plist */; };
+		523B68852637F7B8003C278E /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68842637F7B7003C278E /* Section.swift */; };
+		523B688A2637F7D7003C278E /* SectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68892637F7D7003C278E /* SectionDetail.swift */; };
+		523B688F2637F7F4003C278E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B688E2637F7F4003C278E /* Post.swift */; };
+		523B68942637F826003C278E /* DetailSectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68932637F826003C278E /* DetailSectionTableViewController.swift */; };
+		523B68992637F837003C278E /* CustomDetailSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68982637F837003C278E /* CustomDetailSectionTableViewCell.swift */; };
+		523B689E2637F86C003C278E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B689D2637F86C003C278E /* TableViewController.swift */; };
+		523B68A32637F87B003C278E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68A22637F87B003C278E /* CustomTableViewCell.swift */; };
+		523B68A82637F8B2003C278E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68A72637F8B2003C278E /* VideoViewController.swift */; };
+		523B68AD2637F8C2003C278E /* CustomVideoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68AC2637F8C2003C278E /* CustomVideoViewCell.swift */; };
+		523B68B22637F9EB003C278E /* SecondTypeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68B12637F9EB003C278E /* SecondTypeMenuViewController.swift */; };
+		523B68B72637FA0E003C278E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B68B62637FA0E003C278E /* InfoViewController.swift */; };
+		5283A1A2263A78740013A7DF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283A1A0263A78740013A7DF /* CollectionViewController.swift */; };
+		5283A1A3263A78740013A7DF /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5283A1A1263A78740013A7DF /* CollectionViewCell.xib */; };
+		5283A1A8263A78A90013A7DF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283A1A7263A78A90013A7DF /* CollectionViewCell.swift */; };
+		5283A1AD263A79B50013A7DF /* HorBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283A1AC263A79B50013A7DF /* HorBooks.swift */; };
+		6F47EBF840E847D78FBEE888 /* Pods_TTOLC___SPANISH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E780AB8A1329C088EB9579FB /* Pods_TTOLC___SPANISH.framework */; };
+		BC2F0447046E722DAA25B8C7 /* Pods_TTOLC___SPANISHTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4536AAC527B5DFC8EF84CC /* Pods_TTOLC___SPANISHTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A351AADA1D6E4AECEF684CC /* Pods-TTOLC - SPANISHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTOLC - SPANISHTests.release.xcconfig"; path = "Target Support Files/Pods-TTOLC - SPANISHTests/Pods-TTOLC - SPANISHTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E5176E92B5A160CFAD11AAB /* Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.debug.xcconfig"; path = "Target Support Files/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40139667126236C9250E10A4 /* Pods_TTOLC___SPANISH_TTOLC___SPANISHUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_TTOLC___SPANISH_TTOLC___SPANISHUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5210B22026389D9F006E080F /* missionary.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = missionary.mp4; sourceTree = "<group>"; };
+		5210B2312638EEDA006E080F /* DetailBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookViewController.swift; sourceTree = "<group>"; };
 		523B68092637C22C003C278E /* TTOLC - SPANISH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTOLC - SPANISH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		523B680C2637C22C003C278E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		523B680E2637C22C003C278E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +79,33 @@
 		523B682A2637C22D003C278E /* TTOLC - SPANISHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTOLC - SPANISHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		523B682E2637C22D003C278E /* TTOLC___SPANISHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TTOLC___SPANISHUITests.swift"; sourceTree = "<group>"; };
 		523B68302637C22D003C278E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523B683F2637C2F1003C278E /* TTOLC - SPANISH.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TTOLC - SPANISH.entitlements"; sourceTree = "<group>"; };
+		523B68452637CB7F003C278E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		523B684D2637CD5D003C278E /* CustomMainSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMainSectionTableViewCell.swift; sourceTree = "<group>"; };
+		523B68522637E578003C278E /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		523B685F2637E5B1003C278E /* CustomSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSectionTableViewCell.swift; sourceTree = "<group>"; };
+		523B687C2637EF4A003C278E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		523B68842637F7B7003C278E /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		523B68892637F7D7003C278E /* SectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetail.swift; sourceTree = "<group>"; };
+		523B688E2637F7F4003C278E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		523B68932637F826003C278E /* DetailSectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSectionTableViewController.swift; sourceTree = "<group>"; };
+		523B68982637F837003C278E /* CustomDetailSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDetailSectionTableViewCell.swift; sourceTree = "<group>"; };
+		523B689D2637F86C003C278E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		523B68A22637F87B003C278E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		523B68A72637F8B2003C278E /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		523B68AC2637F8C2003C278E /* CustomVideoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoViewCell.swift; sourceTree = "<group>"; };
+		523B68B12637F9EB003C278E /* SecondTypeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTypeMenuViewController.swift; sourceTree = "<group>"; };
+		523B68B62637FA0E003C278E /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5283A1A0263A78740013A7DF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		5283A1A1263A78740013A7DF /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		5283A1A7263A78A90013A7DF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5283A1AC263A79B50013A7DF /* HorBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorBooks.swift; sourceTree = "<group>"; };
+		6ED494F5028AB050236AB0D1 /* Pods-TTOLC - SPANISHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTOLC - SPANISHTests.debug.xcconfig"; path = "Target Support Files/Pods-TTOLC - SPANISHTests/Pods-TTOLC - SPANISHTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95E07E8A0131B51EA414E8D3 /* Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.release.xcconfig"; path = "Target Support Files/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E4536AAC527B5DFC8EF84CC /* Pods_TTOLC___SPANISHTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_TTOLC___SPANISHTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD48AC09BD923EE0B175B7AD /* Pods-TTOLC - SPANISH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTOLC - SPANISH.debug.xcconfig"; path = "Target Support Files/Pods-TTOLC - SPANISH/Pods-TTOLC - SPANISH.debug.xcconfig"; sourceTree = "<group>"; };
+		E780AB8A1329C088EB9579FB /* Pods_TTOLC___SPANISH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_TTOLC___SPANISH.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAD3FA563370F44D024F736 /* Pods-TTOLC - SPANISH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTOLC - SPANISH.release.xcconfig"; path = "Target Support Files/Pods-TTOLC - SPANISH/Pods-TTOLC - SPANISH.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F47EBF840E847D78FBEE888 /* Pods_TTOLC___SPANISH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2F0447046E722DAA25B8C7 /* Pods_TTOLC___SPANISHTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E7F3809B40ED7628A8FADD /* Pods_TTOLC___SPANISH_TTOLC___SPANISHUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +140,12 @@
 			isa = PBXGroup;
 			children = (
 				523B680B2637C22C003C278E /* TTOLC - SPANISH */,
+				523B68442637CB61003C278E /* Model */,
 				523B68222637C22D003C278E /* TTOLC - SPANISHTests */,
 				523B682D2637C22D003C278E /* TTOLC - SPANISHUITests */,
 				523B680A2637C22C003C278E /* Products */,
+				F2B44E7B18843212F95AF767 /* Pods */,
+				B2AF003F7330BB131ACB3B92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +162,31 @@
 		523B680B2637C22C003C278E /* TTOLC - SPANISH */ = {
 			isa = PBXGroup;
 			children = (
+				523B683F2637C2F1003C278E /* TTOLC - SPANISH.entitlements */,
 				523B680C2637C22C003C278E /* AppDelegate.swift */,
 				523B680E2637C22C003C278E /* SceneDelegate.swift */,
 				523B68102637C22C003C278E /* ViewController.swift */,
+				5210B22026389D9F006E080F /* missionary.mp4 */,
+				523B68B12637F9EB003C278E /* SecondTypeMenuViewController.swift */,
+				523B68B62637FA0E003C278E /* InfoViewController.swift */,
+				523B684D2637CD5D003C278E /* CustomMainSectionTableViewCell.swift */,
+				5283A1A0263A78740013A7DF /* CollectionViewController.swift */,
+				5283A1A7263A78A90013A7DF /* CollectionViewCell.swift */,
+				5283A1A1263A78740013A7DF /* CollectionViewCell.xib */,
+				523B68522637E578003C278E /* SectionTableViewController.swift */,
+				523B685F2637E5B1003C278E /* CustomSectionTableViewCell.swift */,
+				523B68932637F826003C278E /* DetailSectionTableViewController.swift */,
+				523B68982637F837003C278E /* CustomDetailSectionTableViewCell.swift */,
+				523B689D2637F86C003C278E /* TableViewController.swift */,
+				523B68A22637F87B003C278E /* CustomTableViewCell.swift */,
+				523B68A72637F8B2003C278E /* VideoViewController.swift */,
+				523B68AC2637F8C2003C278E /* CustomVideoViewCell.swift */,
+				5210B2312638EEDA006E080F /* DetailBookViewController.swift */,
 				523B68122637C22C003C278E /* Main.storyboard */,
 				523B68152637C22D003C278E /* Assets.xcassets */,
 				523B68172637C22D003C278E /* LaunchScreen.storyboard */,
 				523B681A2637C22D003C278E /* Info.plist */,
+				523B687C2637EF4A003C278E /* GoogleService-Info.plist */,
 			);
 			path = "TTOLC - SPANISH";
 			sourceTree = "<group>";
@@ -128,6 +209,41 @@
 			path = "TTOLC - SPANISHUITests";
 			sourceTree = "<group>";
 		};
+		523B68442637CB61003C278E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				523B68452637CB7F003C278E /* MainMenu.swift */,
+				5283A1AC263A79B50013A7DF /* HorBooks.swift */,
+				523B68842637F7B7003C278E /* Section.swift */,
+				523B68892637F7D7003C278E /* SectionDetail.swift */,
+				523B688E2637F7F4003C278E /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2AF003F7330BB131ACB3B92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E780AB8A1329C088EB9579FB /* Pods_TTOLC___SPANISH.framework */,
+				40139667126236C9250E10A4 /* Pods_TTOLC___SPANISH_TTOLC___SPANISHUITests.framework */,
+				9E4536AAC527B5DFC8EF84CC /* Pods_TTOLC___SPANISHTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B44E7B18843212F95AF767 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD48AC09BD923EE0B175B7AD /* Pods-TTOLC - SPANISH.debug.xcconfig */,
+				FFAD3FA563370F44D024F736 /* Pods-TTOLC - SPANISH.release.xcconfig */,
+				2E5176E92B5A160CFAD11AAB /* Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.debug.xcconfig */,
+				95E07E8A0131B51EA414E8D3 /* Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.release.xcconfig */,
+				6ED494F5028AB050236AB0D1 /* Pods-TTOLC - SPANISHTests.debug.xcconfig */,
+				1A351AADA1D6E4AECEF684CC /* Pods-TTOLC - SPANISHTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 523B68332637C22D003C278E /* Build configuration list for PBXNativeTarget "TTOLC - SPANISH" */;
 			buildPhases = (
+				12040DB1EE29B5351FAE5F40 /* [CP] Check Pods Manifest.lock */,
 				523B68052637C22C003C278E /* Sources */,
 				523B68062637C22C003C278E /* Frameworks */,
 				523B68072637C22C003C278E /* Resources */,
+				D23D088AFF2C6F28EECCF003 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 523B68362637C22D003C278E /* Build configuration list for PBXNativeTarget "TTOLC - SPANISHTests" */;
 			buildPhases = (
+				435D252E022EB48210FBFC82 /* [CP] Check Pods Manifest.lock */,
 				523B681B2637C22D003C278E /* Sources */,
 				523B681C2637C22D003C278E /* Frameworks */,
 				523B681D2637C22D003C278E /* Resources */,
@@ -170,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 523B68392637C22D003C278E /* Build configuration list for PBXNativeTarget "TTOLC - SPANISHUITests" */;
 			buildPhases = (
+				1C4BE4860F8F6EE0E16EE749 /* [CP] Check Pods Manifest.lock */,
 				523B68262637C22D003C278E /* Sources */,
 				523B68272637C22D003C278E /* Frameworks */,
 				523B68282637C22D003C278E /* Resources */,
+				B5BD70086A3675373862C17C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +352,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5283A1A3263A78740013A7DF /* CollectionViewCell.xib in Resources */,
 				523B68192637C22D003C278E /* LaunchScreen.storyboard in Resources */,
 				523B68162637C22D003C278E /* Assets.xcassets in Resources */,
+				5210B22126389D9F006E080F /* missionary.mp4 in Resources */,
 				523B68142637C22C003C278E /* Main.storyboard in Resources */,
+				523B687D2637EF4A003C278E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +377,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12040DB1EE29B5351FAE5F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTOLC - SPANISH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C4BE4860F8F6EE0E16EE749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		435D252E022EB48210FBFC82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTOLC - SPANISHTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5BD70086A3675373862C17C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests/Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23D088AFF2C6F28EECCF003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTOLC - SPANISH/Pods-TTOLC - SPANISH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTOLC - SPANISH/Pods-TTOLC - SPANISH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTOLC - SPANISH/Pods-TTOLC - SPANISH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		523B68052637C22C003C278E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				523B68112637C22C003C278E /* ViewController.swift in Sources */,
+				523B68AD2637F8C2003C278E /* CustomVideoViewCell.swift in Sources */,
+				523B68942637F826003C278E /* DetailSectionTableViewController.swift in Sources */,
+				523B689E2637F86C003C278E /* TableViewController.swift in Sources */,
+				5283A1AD263A79B50013A7DF /* HorBooks.swift in Sources */,
+				5283A1A2263A78740013A7DF /* CollectionViewController.swift in Sources */,
+				523B68B72637FA0E003C278E /* InfoViewController.swift in Sources */,
+				523B688A2637F7D7003C278E /* SectionDetail.swift in Sources */,
+				523B68992637F837003C278E /* CustomDetailSectionTableViewCell.swift in Sources */,
 				523B680D2637C22C003C278E /* AppDelegate.swift in Sources */,
 				523B680F2637C22C003C278E /* SceneDelegate.swift in Sources */,
+				523B68602637E5B1003C278E /* CustomSectionTableViewCell.swift in Sources */,
+				523B68A82637F8B2003C278E /* VideoViewController.swift in Sources */,
+				523B68462637CB7F003C278E /* MainMenu.swift in Sources */,
+				523B68B22637F9EB003C278E /* SecondTypeMenuViewController.swift in Sources */,
+				523B68852637F7B8003C278E /* Section.swift in Sources */,
+				523B68A32637F87B003C278E /* CustomTableViewCell.swift in Sources */,
+				523B68532637E578003C278E /* SectionTableViewController.swift in Sources */,
+				5283A1A8263A78A90013A7DF /* CollectionViewCell.swift in Sources */,
+				523B684E2637CD5D003C278E /* CustomMainSectionTableViewCell.swift in Sources */,
+				523B688F2637F7F4003C278E /* Post.swift in Sources */,
+				5210B2322638EEDA006E080F /* DetailBookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +667,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,44 +679,53 @@
 		};
 		523B68342637C22D003C278E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD48AC09BD923EE0B175B7AD /* Pods-TTOLC - SPANISH.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TTOLC - SPANISH/TTOLC - SPANISH.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3MCT36F6J9;
 				INFOPLIST_FILE = "TTOLC - SPANISH/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Dowon.TTOLC---SPANISH";
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = Dowon.TTOLC.SPANISH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		523B68352637C22D003C278E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAD3FA563370F44D024F736 /* Pods-TTOLC - SPANISH.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TTOLC - SPANISH/TTOLC - SPANISH.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3MCT36F6J9;
 				INFOPLIST_FILE = "TTOLC - SPANISH/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Dowon.TTOLC---SPANISH";
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = Dowon.TTOLC.SPANISH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		523B68372637C22D003C278E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED494F5028AB050236AB0D1 /* Pods-TTOLC - SPANISHTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +748,7 @@
 		};
 		523B68382637C22D003C278E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A351AADA1D6E4AECEF684CC /* Pods-TTOLC - SPANISHTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +771,7 @@
 		};
 		523B683A2637C22D003C278E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5176E92B5A160CFAD11AAB /* Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +792,7 @@
 		};
 		523B683B2637C22D003C278E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E07E8A0131B51EA414E8D3 /* Pods-TTOLC - SPANISH-TTOLC - SPANISHUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
