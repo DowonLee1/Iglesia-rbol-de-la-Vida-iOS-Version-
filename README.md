@@ -6,7 +6,15 @@
 
 
 ## Product Vision
-You can find sermon channels divided into 5 languages and sermons you want by category. You can also easily browse missionary videos. You can easily view all church information and events. We support online donations or offering in environments where it is difficult to attend worship services directly due to COVID-19, and support a mobile translation system that will replace the use of a direct translation device. In addition, sermons can be easily mirrored and viewed on a smart TV.
+A church app developed in Spanish for ongoing missions to South America. Support for new missionary information and ongoing exchange or Bible study.
+
+<Mission Area In Progress>
+COLOMBIA - PEREIRA, MEDELLIN, MANIZALES
+EL SALVADOR - SAN SALVADOR
+COSTA RICA
+CHILE
+
+You can find sermon by category. You can also easily browse missionary videos. You can easily view all church missionary information and missionary events. We support online donations or offering in environments where it is difficult to attend worship services directly due to COVID-19. In addition, sermons can be easily mirrored and viewed on a smart TV.
 
 ## Technologies
 - Database - Firebase(NoSQL)
