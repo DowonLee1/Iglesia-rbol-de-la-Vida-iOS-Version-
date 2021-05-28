@@ -1,5 +1,4 @@
 # Iglesia-rbol-de-la-Vida-iOS-Version-
-RealTime Database, Online Donation, Live Translation Channel, Live Streaming Service, Missionary Event
 
 ![1a](https://user-images.githubusercontent.com/25316124/119910949-53c4c900-bf26-11eb-80e7-c0a1826cb291.jpg)
 ![2a](https://user-images.githubusercontent.com/25316124/119910950-53c4c900-bf26-11eb-9a4b-2c4b65bbbc8e.jpg)
@@ -8,8 +7,6 @@ RealTime Database, Online Donation, Live Translation Channel, Live Streaming Ser
 
 ## Product Vision
 You can find sermon channels divided into 5 languages and sermons you want by category. You can also easily browse missionary videos. You can easily view all church information and events. We support online donations or offering in environments where it is difficult to attend worship services directly due to COVID-19, and support a mobile translation system that will replace the use of a direct translation device. In addition, sermons can be easily mirrored and viewed on a smart TV.
-
-## Software Priorities/Important Qualities
 
 ## Technologies
 - Database - Firebase(NoSQL)
@@ -26,6 +23,6 @@ You can find sermon channels divided into 5 languages and sermons you want by ca
 - Video Edit by Dowon
 
 ## Develop Period
-- 11 Month(UI/UX, Database, Server, Online Offering(Apple Pay, Donor Box), Live Translation Channels, Optimization)
+- 7days (UI/UX, Database, Server, Online Offering(Apple Pay, Donor Box), Live Translation Channels, Optimization)
 - At the last, Apple Pay removed for future update due to many document procedure
 
