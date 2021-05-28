@@ -8,7 +8,7 @@
 ## Product Vision
 A church app developed in Spanish for ongoing missions to South America. Support for new missionary information and ongoing exchange or Bible study.
 
-<Mission Area In Progress>
+##Mission Area In Progress
 COLOMBIA - PEREIRA, MEDELLIN, MANIZALES
 EL SALVADOR - SAN SALVADOR
 COSTA RICA
