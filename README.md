@@ -30,13 +30,9 @@ You can find sermon by category. You can also easily browse missionary videos. Y
 - Design by Dowon
 - Video Edit by Dowon
 
-## Develop Period
-- 7days (UI/UX, Database, Server, Online Offering(Apple Pay, Donor Box), Live Translation Channels, Optimization)
-- At the last, Apple Pay removed for future update due to many document procedure
+## Develop History
 
-## DEVELOP HISTORY
-
-## HANDLING VIDEO(SERMONS) CONTENTS
+## Handling Video(Sermons) Contents
 
 At the time of initial development, all video content of the church was stored on the YouTube site.  At this point, I thought there was no need to spend more money and run another server, so I decided to use the YouTube API.  This is because, if you use the YouTube API, you can maximize cost reduction and easy management.  It was decided to use the framework by extracting only YouTube video frames.
 
