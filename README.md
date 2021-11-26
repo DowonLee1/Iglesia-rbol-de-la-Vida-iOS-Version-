@@ -1,4 +1,4 @@
-# Iglesia-rbol-de-la-Vida-iOS-Version-
+# Iglesia-Árbol-de-la-Vida-iOS-Version-
 
 ![1a](https://user-images.githubusercontent.com/25316124/119910949-53c4c900-bf26-11eb-80e7-c0a1826cb291.jpg)
 ![2a](https://user-images.githubusercontent.com/25316124/119910950-53c4c900-bf26-11eb-9a4b-2c4b65bbbc8e.jpg)
